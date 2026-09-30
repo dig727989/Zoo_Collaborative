@@ -25,11 +25,13 @@ public class Main {
         List<Animal> zoo = new ArrayList<>();
 
         // --- LINE 1 ---
+
+
 Tiger tiger = new Tiger("Vitaly");
 zoo.add(tiger);
         // --- LINE 2 ---
-
-
+        Animal hipopotamo = new Hippo("Jose");
+        zoo.add(hipopotamo);
         // --- LINE 3 ---
         Animal cat = new Cat("Gatete miau");
         zoo.add(cat);
@@ -46,10 +48,12 @@ zoo.add(wolf);
         Animal cheetah = new Cheetah("cheetah");
         zoo.add(cheetah);
         // --- LINE 8 ---
-
+        Monkey monito =new Monkey("El Rey");
+        zoo.add(monito);
 
         // --- LINE 9 ---
-
+        Animal crocodile = new Crocodrile ("Crocodile");
+        zoo.add(crocodile);
 
         // --- LINE 10 ---
 
